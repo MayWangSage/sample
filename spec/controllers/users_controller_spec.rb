@@ -1,6 +1,7 @@
 require 'spec_helper'
 
 describe UsersController do
+  render_views
 
   before(:each) do
     @base_title = "Ruby on Rails Tutorial Sample App"
